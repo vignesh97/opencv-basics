@@ -7,6 +7,6 @@ b=color[:,:,0]
 g=color[:,:,1]
 r=color[:,:,2]
 
-rgba = cv2.merge((b,g,r,g))
+rgba = cv2.merge((b,g,r,r))
 
 cv2.imwrite("rgba.png",rgba)
